@@ -12,3 +12,12 @@ This example illustrates how to hide series in a chart item by clicking on a leg
 
 **Limitation:**
 Please note that this implementation works only when the chart coloring settings are set to Auto. Otherwise, you will have to redesign the extension.
+
+## Documentation
+
+- [Create Custom Properties](https://docs.devexpress.com/Dashboard/401702/web-dashboard/ui-elements-and-customization/create-custom-properties)
+
+## More Examples
+
+- [Dashboard for Web Forms - Custom Properties](https://github.com/DevExpress-Examples/asp-net-web-forms-dashboard-custom-properties-sample)
+- [Dashboard for Web Forms - How to implement dependent custom properties in a custom item](https://github.com/DevExpress-Examples/CustomItemDependentProperties)
