@@ -54,21 +54,21 @@
     function CustomPropertyChartSeriesVisibilityExtension(dashboardControl) {
         this.name = "CustomPropertyChartSeriesVisibilityExtension";
         this.start = function () {
-            let viewerApiExtension = dashboardControl.findExtension('viewer-api');
+            let viewerApiExtension = dashboardControl.findExtension('viewerApi');
             if (viewerApiExtension) {
                 viewerApiExtension.on('itemWidgetOptionsPrepared', onItemWidgetOptionsPrepared);
             }
-            let bindingPanelExtension = dashboardControl.findExtension("item-options-panel");
+            let bindingPanelExtension = dashboardControl.findExtension("itemOptionsPanel");
             if (bindingPanelExtension) {
                 bindingPanelExtension.on('customizeSections', onCustomizeSections);
             }
         };
         this.stop = function () {
-            let viewerApiExtension = dashboardControl.findExtension('viewer-api');
+            let viewerApiExtension = dashboardControl.findExtension('viewerApi');
             if (viewerApiExtension) {
                 viewerApiExtension.off('itemWidgetOptionsPrepared', onItemWidgetOptionsPrepared);
             }
-            let bindingPanelExtension = dashboardControl.findExtension("item-options-panel");
+            let bindingPanelExtension = dashboardControl.findExtension("itemOptionsPanel");
             if (bindingPanelExtension) {
                 bindingPanelExtension.off('customizeSections', onCustomizeSections);
             }
