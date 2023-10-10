@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T959915)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Dashboard for MVC - How to Hide Series by Clicking on a Chart Legend (Custom Property)
+# BI Dashboard for MVC - How to Hide Series by Clicking on a Chart Legend (Custom Property)
 
 This example illustrates how to hide series in a chart item by clicking on a legend icon. It is possible to enable or disable this functionality using a custom property:
 ![](images/cs_chart_legend_click.png)
