@@ -3,14 +3,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T959915)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
-
-* [Index.cshtml](./CS/MvcDashboard/Views/Home/Index.cshtml)
-* [CustomPropertyChartSeriesVisibility.js](./CS/MvcDashboard/Content/CustomPropertyChartSeriesVisibility.js)
-<!-- default file list end -->
-
-# Dashboard for MVC - Custom Property - How to hide series by clicking on a chart legend
+# Dashboard for MVC - How to Hide Series by Clicking on a Chart Legend (Custom Property)
 
 This example illustrates how to hide series in a chart item by clicking on a legend icon. It is possible to enable or disable this functionality using a custom property:
 ![](images/cs_chart_legend_click.png)
@@ -21,6 +14,11 @@ Please note that this implementation works only when the chart coloring settings
 ## Documentation
 
 - [Create Custom Properties](https://docs.devexpress.com/Dashboard/401702/web-dashboard/ui-elements-and-customization/create-custom-properties)
+
+## Files to Review
+
+* [Index.cshtml](./CS/MvcDashboard/Views/Home/Index.cshtml)
+* [CustomPropertyChartSeriesVisibility.js](./CS/MvcDashboard/Content/CustomPropertyChartSeriesVisibility.js)
 
 ## More Examples
 
