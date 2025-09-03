@@ -25,26 +25,8 @@ namespace MvcDashboard {
             sqlDataSource.Queries.Add(query);
             dataSourceStorage.RegisterDataSource("sqlDataSource", sqlDataSource.SaveToXml());
             
-            // Registers an Object data source.
-            DashboardObjectDataSource objDataSource = new DashboardObjectDataSource("Object Data Source");
-            objDataSource.DataId = "odsInvoices";
-            dataSourceStorage.RegisterDataSource("objDataSource", objDataSource.SaveToXml());
-            
-            // Registers an Excel data source.
-            DashboardExcelDataSource excelDataSource = new DashboardExcelDataSource("Excel Data Source");
-            excelDataSource.ConnectionName = "xlsSales";
-            excelDataSource.FileName = HostingEnvironment.MapPath(@"~/App_Data/Sales.xlsx");
-            excelDataSource.SourceOptions = new ExcelSourceOptions(new ExcelWorksheetSettings("Sheet1"));
-            dataSourceStorage.RegisterDataSource("excelDataSource", excelDataSource.SaveToXml());
-            
+          
             DashboardConfigurator.Default.SetDataSourceStorage(dataSourceStorage);
-            DashboardConfigurator.Default.DataLoading += DataLoading;
-        }
-
-        private static void DataLoading(object sender, DataLoadingWebEventArgs e) {
-            if(e.DataId == "odsInvoices") {
-                e.Data = Invoices.CreateData();
-            }
         }
     }
 }
