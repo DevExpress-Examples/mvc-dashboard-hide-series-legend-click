@@ -167,7 +167,6 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\DefaultDashboardController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Data\Invoices.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -209,3 +208,4 @@
     </VisualStudio>
   </ProjectExtensions>
 </Project>
+
